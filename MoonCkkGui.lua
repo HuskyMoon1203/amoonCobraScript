@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local MCKKS = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local Credit = Instance.new("TextLabel")
@@ -796,7 +791,7 @@ opco.TextWrapped = true
 
 -- Scripts:
 
-local function KRAXURL_fake_script() -- AFSO.AFSOS 
+local function ECDR_fake_script() -- AFSO.AFSOS 
 	local script = Instance.new('LocalScript', AFSO)
 
 	Button1 = script.Parent
@@ -823,8 +818,8 @@ local function KRAXURL_fake_script() -- AFSO.AFSOS
 	end)
 	
 end
-coroutine.wrap(KRAXURL_fake_script)()
-local function CAIAUN_fake_script() -- AFPO.AFPOS 
+coroutine.wrap(ECDR_fake_script)()
+local function SQJTHU_fake_script() -- AFPO.AFPOS 
 	local script = Instance.new('LocalScript', AFPO)
 
 	Button2 = script.Parent
@@ -851,8 +846,8 @@ local function CAIAUN_fake_script() -- AFPO.AFPOS
 	end)
 	
 end
-coroutine.wrap(CAIAUN_fake_script)()
-local function JQMP_fake_script() -- AFDO.AFDOS 
+coroutine.wrap(SQJTHU_fake_script)()
+local function YYKQTM_fake_script() -- AFDO.AFDOS 
 	local script = Instance.new('LocalScript', AFDO)
 
 	Button3 = script.Parent
@@ -884,8 +879,8 @@ local function JQMP_fake_script() -- AFDO.AFDOS
 	end)
 	
 end
-coroutine.wrap(JQMP_fake_script)()
-local function YWIKM_fake_script() -- AFBO.AFBOS 
+coroutine.wrap(YYKQTM_fake_script)()
+local function JRNWA_fake_script() -- AFBO.AFBOS 
 	local script = Instance.new('LocalScript', AFBO)
 
 	Button4 = script.Parent
@@ -912,8 +907,8 @@ local function YWIKM_fake_script() -- AFBO.AFBOS
 	end)
 	
 end
-coroutine.wrap(YWIKM_fake_script)()
-local function PRUXMTX_fake_script() -- AFPBO.AFPBOS 
+coroutine.wrap(JRNWA_fake_script)()
+local function UYODX_fake_script() -- AFPBO.AFPBOS 
 	local script = Instance.new('LocalScript', AFPBO)
 
 	Button5 = script.Parent
@@ -943,8 +938,8 @@ local function PRUXMTX_fake_script() -- AFPBO.AFPBOS
 	end)
 	
 end
-coroutine.wrap(PRUXMTX_fake_script)()
-local function KPORHVF_fake_script() -- EF1B.EF1BS 
+coroutine.wrap(UYODX_fake_script)()
+local function ZYDAS_fake_script() -- EF1B.EF1BS 
 	local script = Instance.new('LocalScript', EF1B)
 
 	Button12 = script.Parent
@@ -972,8 +967,8 @@ local function KPORHVF_fake_script() -- EF1B.EF1BS
 	end)
 	
 end
-coroutine.wrap(KPORHVF_fake_script)()
-local function CZXDBE_fake_script() -- EF2BS.EF2BS 
+coroutine.wrap(ZYDAS_fake_script)()
+local function DEWVGHA_fake_script() -- EF2BS.EF2BS 
 	local script = Instance.new('LocalScript', EF2BS)
 
 	Button13 = script.Parent
@@ -1000,8 +995,8 @@ local function CZXDBE_fake_script() -- EF2BS.EF2BS
 	end)
 	
 end
-coroutine.wrap(CZXDBE_fake_script)()
-local function CZSJUBI_fake_script() -- EXP2B.EXP2BS 
+coroutine.wrap(DEWVGHA_fake_script)()
+local function GXBU_fake_script() -- EXP2B.EXP2BS 
 	local script = Instance.new('LocalScript', EXP2B)
 
 	Button7 = script.Parent
@@ -1030,8 +1025,8 @@ local function CZSJUBI_fake_script() -- EXP2B.EXP2BS
 	end)
 	
 end
-coroutine.wrap(CZSJUBI_fake_script)()
-local function OPDNL_fake_script() -- EXP1B.EXP1BS 
+coroutine.wrap(GXBU_fake_script)()
+local function UCJFVL_fake_script() -- EXP1B.EXP1BS 
 	local script = Instance.new('LocalScript', EXP1B)
 
 	Button6 = script.Parent
@@ -1060,8 +1055,8 @@ local function OPDNL_fake_script() -- EXP1B.EXP1BS
 	end)
 	
 end
-coroutine.wrap(OPDNL_fake_script)()
-local function UDEU_fake_script() -- EXP3B.EXP3BS 
+coroutine.wrap(UCJFVL_fake_script)()
+local function SKQFTE_fake_script() -- EXP3B.EXP3BS 
 	local script = Instance.new('LocalScript', EXP3B)
 
 	Button8 = script.Parent
@@ -1090,8 +1085,8 @@ local function UDEU_fake_script() -- EXP3B.EXP3BS
 	end)
 	
 end
-coroutine.wrap(UDEU_fake_script)()
-local function MWJCTAU_fake_script() -- EXP4B.EXP4BS 
+coroutine.wrap(SKQFTE_fake_script)()
+local function FDMHHGC_fake_script() -- EXP4B.EXP4BS 
 	local script = Instance.new('LocalScript', EXP4B)
 
 	Button9 = script.Parent
@@ -1120,8 +1115,8 @@ local function MWJCTAU_fake_script() -- EXP4B.EXP4BS
 	end)
 	
 end
-coroutine.wrap(MWJCTAU_fake_script)()
-local function QTFT_fake_script() -- Farming.fos 
+coroutine.wrap(FDMHHGC_fake_script)()
+local function ZMZDKY_fake_script() -- Farming.fos 
 	local script = Instance.new('LocalScript', Farming)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1143,8 +1138,8 @@ local function QTFT_fake_script() -- Farming.fos
 		end
 	end)
 end
-coroutine.wrap(QTFT_fake_script)()
-local function TWOVZ_fake_script() -- Exp.eos 
+coroutine.wrap(ZMZDKY_fake_script)()
+local function VPNDFE_fake_script() -- Exp.eos 
 	local script = Instance.new('LocalScript', Exp)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1166,8 +1161,8 @@ local function TWOVZ_fake_script() -- Exp.eos
 		end
 	end)
 end
-coroutine.wrap(TWOVZ_fake_script)()
-local function LKYOV_fake_script() -- Cosmetic.ccos 
+coroutine.wrap(VPNDFE_fake_script)()
+local function HVGOUN_fake_script() -- Cosmetic.ccos 
 	local script = Instance.new('LocalScript', Cosmetic)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1189,8 +1184,8 @@ local function LKYOV_fake_script() -- Cosmetic.ccos
 		end
 	end)
 end
-coroutine.wrap(LKYOV_fake_script)()
-local function YKIICF_fake_script() -- Tips.tos 
+coroutine.wrap(HVGOUN_fake_script)()
+local function AUIYL_fake_script() -- Tips.tos 
 	local script = Instance.new('LocalScript', Tips)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1212,8 +1207,8 @@ local function YKIICF_fake_script() -- Tips.tos
 		end
 	end)
 end
-coroutine.wrap(YKIICF_fake_script)()
-local function HGTV_fake_script() -- Creds.cdos 
+coroutine.wrap(AUIYL_fake_script)()
+local function WHHMV_fake_script() -- Creds.cdos 
 	local script = Instance.new('LocalScript', Creds)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1235,8 +1230,8 @@ local function HGTV_fake_script() -- Creds.cdos
 		end
 	end)
 end
-coroutine.wrap(HGTV_fake_script)()
-local function KYQWVD_fake_script() -- opco.ocs 
+coroutine.wrap(WHHMV_fake_script)()
+local function BJCGPTS_fake_script() -- opco.ocs 
 	local script = Instance.new('LocalScript', opco)
 
 	Button = script.Parent
@@ -1251,4 +1246,15 @@ local function KYQWVD_fake_script() -- opco.ocs
 		end
 	end)
 end
-coroutine.wrap(KYQWVD_fake_script)()
+coroutine.wrap(BJCGPTS_fake_script)()
+local function AJVHRQF_fake_script() -- MCKKS.antiafk 
+	local script = Instance.new('LocalScript', MCKKS)
+
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+end
+coroutine.wrap(AJVHRQF_fake_script)()
