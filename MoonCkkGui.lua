@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local MCKKS = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local Credit = Instance.new("TextLabel")
@@ -18,9 +23,12 @@ local AFPBO = Instance.new("TextButton")
 local PBSPO = Instance.new("TextButton")
 local warnrr = Instance.new("TextLabel")
 local EF = Instance.new("Frame")
-local EF1 = Instance.new("TextLabel")
+local EF2 = Instance.new("TextLabel")
 local EF1B = Instance.new("TextButton")
-local EF1_2 = Instance.new("TextLabel")
+local EF1 = Instance.new("TextLabel")
+local EF3 = Instance.new("TextLabel")
+local EF4 = Instance.new("TextLabel")
+local EF2BS = Instance.new("TextButton")
 local COSF = Instance.new("Frame")
 local EXP2 = Instance.new("TextLabel")
 local EXP1 = Instance.new("TextLabel")
@@ -309,20 +317,20 @@ EF.Position = UDim2.new(0.314624846, 0, 0.139979973, 0)
 EF.Size = UDim2.new(0, 498, 0, 430)
 EF.Visible = false
 
-EF1.Name = "EF1"
-EF1.Parent = EF
-EF1.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-EF1.BackgroundTransparency = 0.500
-EF1.Position = UDim2.new(0.038152609, 0, 0.0395348668, 0)
-EF1.Size = UDim2.new(0, 460, 0, 38)
-EF1.Font = Enum.Font.SourceSans
-EF1.Text = "Bench Press Crackhead"
-EF1.TextColor3 = Color3.fromRGB(255, 255, 255)
-EF1.TextScaled = true
-EF1.TextSize = 14.000
-EF1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-EF1.TextWrapped = true
-EF1.TextXAlignment = Enum.TextXAlignment.Left
+EF2.Name = "EF2"
+EF2.Parent = EF
+EF2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+EF2.BackgroundTransparency = 0.500
+EF2.Position = UDim2.new(0.038152609, 0, 0.0395348668, 0)
+EF2.Size = UDim2.new(0, 460, 0, 38)
+EF2.Font = Enum.Font.SourceSans
+EF2.Text = "Bench Press Crackhead"
+EF2.TextColor3 = Color3.fromRGB(255, 255, 255)
+EF2.TextScaled = true
+EF2.TextSize = 14.000
+EF2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+EF2.TextWrapped = true
+EF2.TextXAlignment = Enum.TextXAlignment.Left
 
 EF1B.Name = "EF1B"
 EF1B.Parent = EF
@@ -337,20 +345,63 @@ EF1B.TextScaled = true
 EF1B.TextSize = 14.000
 EF1B.TextWrapped = true
 
-EF1_2.Name = "EF1"
-EF1_2.Parent = EF
-EF1_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-EF1_2.BackgroundTransparency = 0.500
-EF1_2.Position = UDim2.new(0.038152609, 0, 0.127906978, 0)
-EF1_2.Size = UDim2.new(0, 460, 0, 12)
-EF1_2.Font = Enum.Font.SourceSans
-EF1_2.Text = "Makes you gain durability incredibly fast. Good glitch."
-EF1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-EF1_2.TextScaled = true
-EF1_2.TextSize = 14.000
-EF1_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-EF1_2.TextWrapped = true
-EF1_2.TextXAlignment = Enum.TextXAlignment.Left
+EF1.Name = "EF1"
+EF1.Parent = EF
+EF1.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+EF1.BackgroundTransparency = 0.500
+EF1.Position = UDim2.new(0.038152609, 0, 0.127906978, 0)
+EF1.Size = UDim2.new(0, 460, 0, 12)
+EF1.Font = Enum.Font.SourceSans
+EF1.Text = "Makes you gain durability incredibly fast. Good glitch."
+EF1.TextColor3 = Color3.fromRGB(255, 255, 255)
+EF1.TextScaled = true
+EF1.TextSize = 14.000
+EF1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+EF1.TextWrapped = true
+EF1.TextXAlignment = Enum.TextXAlignment.Left
+
+EF3.Name = "EF3"
+EF3.Parent = EF
+EF3.BackgroundColor3 = Color3.fromRGB(0, 2, 170)
+EF3.BackgroundTransparency = 0.500
+EF3.Position = UDim2.new(0.038152609, 0, 0.197674394, 0)
+EF3.Size = UDim2.new(0, 460, 0, 38)
+EF3.Font = Enum.Font.SourceSans
+EF3.Text = "Jump Kick Exploit"
+EF3.TextColor3 = Color3.fromRGB(255, 255, 255)
+EF3.TextScaled = true
+EF3.TextSize = 14.000
+EF3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+EF3.TextWrapped = true
+EF3.TextXAlignment = Enum.TextXAlignment.Left
+
+EF4.Name = "EF4"
+EF4.Parent = EF
+EF4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+EF4.BackgroundTransparency = 0.500
+EF4.Position = UDim2.new(0.038152609, 0, 0.288372099, 0)
+EF4.Size = UDim2.new(0, 460, 0, 31)
+EF4.Font = Enum.Font.SourceSans
+EF4.Text = "Must have JUMP KICK unlocked. Go into safe zone to any of the red bags and touch them while enabled. Seems to not work as good with other bags. You wont lose any stamina."
+EF4.TextColor3 = Color3.fromRGB(255, 255, 255)
+EF4.TextScaled = true
+EF4.TextSize = 14.000
+EF4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+EF4.TextWrapped = true
+EF4.TextXAlignment = Enum.TextXAlignment.Left
+
+EF2BS.Name = "EF2BS"
+EF2BS.Parent = EF
+EF2BS.BackgroundColor3 = Color3.fromRGB(141, 0, 0)
+EF2BS.BackgroundTransparency = 0.400
+EF2BS.Position = UDim2.new(0.843373597, 0, 0.213953495, 0)
+EF2BS.Size = UDim2.new(0, 49, 0, 25)
+EF2BS.Font = Enum.Font.SciFi
+EF2BS.Text = "Off"
+EF2BS.TextColor3 = Color3.fromRGB(255, 255, 255)
+EF2BS.TextScaled = true
+EF2BS.TextSize = 14.000
+EF2BS.TextWrapped = true
 
 COSF.Name = "COSF"
 COSF.Parent = MainFrame
@@ -561,7 +612,6 @@ Scroll.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Scroll.BackgroundTransparency = 0.400
 Scroll.Position = UDim2.new(-0.000875841943, 0, 0.137858361, 0)
 Scroll.Size = UDim2.new(0, 230, 0, 432)
-Scroll.CanvasPosition = Vector2.new(0, 70)
 Scroll.CanvasSize = UDim2.new(0, 0, 1, 0)
 Scroll.ScrollBarThickness = 4
 Scroll.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
@@ -746,7 +796,7 @@ opco.TextWrapped = true
 
 -- Scripts:
 
-local function LFRZT_fake_script() -- AFSO.AFSOS 
+local function KRAXURL_fake_script() -- AFSO.AFSOS 
 	local script = Instance.new('LocalScript', AFSO)
 
 	Button1 = script.Parent
@@ -773,8 +823,8 @@ local function LFRZT_fake_script() -- AFSO.AFSOS
 	end)
 	
 end
-coroutine.wrap(LFRZT_fake_script)()
-local function UIAGK_fake_script() -- AFPO.AFPOS 
+coroutine.wrap(KRAXURL_fake_script)()
+local function CAIAUN_fake_script() -- AFPO.AFPOS 
 	local script = Instance.new('LocalScript', AFPO)
 
 	Button2 = script.Parent
@@ -801,8 +851,8 @@ local function UIAGK_fake_script() -- AFPO.AFPOS
 	end)
 	
 end
-coroutine.wrap(UIAGK_fake_script)()
-local function BNKGBTY_fake_script() -- AFDO.AFDOS 
+coroutine.wrap(CAIAUN_fake_script)()
+local function JQMP_fake_script() -- AFDO.AFDOS 
 	local script = Instance.new('LocalScript', AFDO)
 
 	Button3 = script.Parent
@@ -834,8 +884,8 @@ local function BNKGBTY_fake_script() -- AFDO.AFDOS
 	end)
 	
 end
-coroutine.wrap(BNKGBTY_fake_script)()
-local function TDZVBQ_fake_script() -- AFBO.AFBOS 
+coroutine.wrap(JQMP_fake_script)()
+local function YWIKM_fake_script() -- AFBO.AFBOS 
 	local script = Instance.new('LocalScript', AFBO)
 
 	Button4 = script.Parent
@@ -862,8 +912,8 @@ local function TDZVBQ_fake_script() -- AFBO.AFBOS
 	end)
 	
 end
-coroutine.wrap(TDZVBQ_fake_script)()
-local function SMQN_fake_script() -- AFPBO.AFPBOS 
+coroutine.wrap(YWIKM_fake_script)()
+local function PRUXMTX_fake_script() -- AFPBO.AFPBOS 
 	local script = Instance.new('LocalScript', AFPBO)
 
 	Button5 = script.Parent
@@ -893,8 +943,8 @@ local function SMQN_fake_script() -- AFPBO.AFPBOS
 	end)
 	
 end
-coroutine.wrap(SMQN_fake_script)()
-local function KLGQ_fake_script() -- EF1B.EF1BS 
+coroutine.wrap(PRUXMTX_fake_script)()
+local function KPORHVF_fake_script() -- EF1B.EF1BS 
 	local script = Instance.new('LocalScript', EF1B)
 
 	Button12 = script.Parent
@@ -922,8 +972,36 @@ local function KLGQ_fake_script() -- EF1B.EF1BS
 	end)
 	
 end
-coroutine.wrap(KLGQ_fake_script)()
-local function WUBM_fake_script() -- EXP2B.EXP2BS 
+coroutine.wrap(KPORHVF_fake_script)()
+local function CZXDBE_fake_script() -- EF2BS.EF2BS 
+	local script = Instance.new('LocalScript', EF2BS)
+
+	Button13 = script.Parent
+	ison13 = false
+	
+	Button13.MouseButton1Click:Connect(function()
+		if ison13 == false then ison13 = true
+		else
+			ison13 = false
+		end
+		while ison13 == true do
+			wait(.0001)
+				game.ReplicatedStorage.Remotes.JumpKick:FireServer(2);
+		end
+	end)
+	
+	Button13.MouseButton1Click:Connect(function()
+		if script.Parent.Text == "Off" then script.Parent.Text = "On" elseif
+			script.Parent.Text == "On" then script.Parent.Text = "Off"
+		end
+		if script.Parent.Text == "Off" then Button13.BackgroundColor3 = Color3.fromRGB(141, 0, 0) elseif
+			Button13.Text == "On" then Button13.BackgroundColor3 = Color3.fromRGB(54, 141, 0)
+		end
+	end)
+	
+end
+coroutine.wrap(CZXDBE_fake_script)()
+local function CZSJUBI_fake_script() -- EXP2B.EXP2BS 
 	local script = Instance.new('LocalScript', EXP2B)
 
 	Button7 = script.Parent
@@ -952,8 +1030,8 @@ local function WUBM_fake_script() -- EXP2B.EXP2BS
 	end)
 	
 end
-coroutine.wrap(WUBM_fake_script)()
-local function FYRS_fake_script() -- EXP1B.EXP1BS 
+coroutine.wrap(CZSJUBI_fake_script)()
+local function OPDNL_fake_script() -- EXP1B.EXP1BS 
 	local script = Instance.new('LocalScript', EXP1B)
 
 	Button6 = script.Parent
@@ -982,8 +1060,8 @@ local function FYRS_fake_script() -- EXP1B.EXP1BS
 	end)
 	
 end
-coroutine.wrap(FYRS_fake_script)()
-local function JPRAVT_fake_script() -- EXP3B.EXP3BS 
+coroutine.wrap(OPDNL_fake_script)()
+local function UDEU_fake_script() -- EXP3B.EXP3BS 
 	local script = Instance.new('LocalScript', EXP3B)
 
 	Button8 = script.Parent
@@ -1012,8 +1090,8 @@ local function JPRAVT_fake_script() -- EXP3B.EXP3BS
 	end)
 	
 end
-coroutine.wrap(JPRAVT_fake_script)()
-local function THHGTWA_fake_script() -- EXP4B.EXP4BS 
+coroutine.wrap(UDEU_fake_script)()
+local function MWJCTAU_fake_script() -- EXP4B.EXP4BS 
 	local script = Instance.new('LocalScript', EXP4B)
 
 	Button9 = script.Parent
@@ -1042,8 +1120,8 @@ local function THHGTWA_fake_script() -- EXP4B.EXP4BS
 	end)
 	
 end
-coroutine.wrap(THHGTWA_fake_script)()
-local function YVOCJPA_fake_script() -- Farming.fos 
+coroutine.wrap(MWJCTAU_fake_script)()
+local function QTFT_fake_script() -- Farming.fos 
 	local script = Instance.new('LocalScript', Farming)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1065,8 +1143,8 @@ local function YVOCJPA_fake_script() -- Farming.fos
 		end
 	end)
 end
-coroutine.wrap(YVOCJPA_fake_script)()
-local function MMPL_fake_script() -- Exp.eos 
+coroutine.wrap(QTFT_fake_script)()
+local function TWOVZ_fake_script() -- Exp.eos 
 	local script = Instance.new('LocalScript', Exp)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1088,8 +1166,8 @@ local function MMPL_fake_script() -- Exp.eos
 		end
 	end)
 end
-coroutine.wrap(MMPL_fake_script)()
-local function EGJN_fake_script() -- Cosmetic.ccos 
+coroutine.wrap(TWOVZ_fake_script)()
+local function LKYOV_fake_script() -- Cosmetic.ccos 
 	local script = Instance.new('LocalScript', Cosmetic)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1111,8 +1189,8 @@ local function EGJN_fake_script() -- Cosmetic.ccos
 		end
 	end)
 end
-coroutine.wrap(EGJN_fake_script)()
-local function HYWHL_fake_script() -- Tips.tos 
+coroutine.wrap(LKYOV_fake_script)()
+local function YKIICF_fake_script() -- Tips.tos 
 	local script = Instance.new('LocalScript', Tips)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1134,8 +1212,8 @@ local function HYWHL_fake_script() -- Tips.tos
 		end
 	end)
 end
-coroutine.wrap(HYWHL_fake_script)()
-local function PNEARCE_fake_script() -- Creds.cdos 
+coroutine.wrap(YKIICF_fake_script)()
+local function HGTV_fake_script() -- Creds.cdos 
 	local script = Instance.new('LocalScript', Creds)
 
 	AFF = script.Parent.Parent.Parent.AFF
@@ -1157,8 +1235,8 @@ local function PNEARCE_fake_script() -- Creds.cdos
 		end
 	end)
 end
-coroutine.wrap(PNEARCE_fake_script)()
-local function UQDKJ_fake_script() -- opco.ocs 
+coroutine.wrap(HGTV_fake_script)()
+local function KYQWVD_fake_script() -- opco.ocs 
 	local script = Instance.new('LocalScript', opco)
 
 	Button = script.Parent
@@ -1173,4 +1251,4 @@ local function UQDKJ_fake_script() -- opco.ocs
 		end
 	end)
 end
-coroutine.wrap(UQDKJ_fake_script)()
+coroutine.wrap(KYQWVD_fake_script)()
